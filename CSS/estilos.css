@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgba(0, 0, 0, 0.688);
+}
+
+.menuNavegacion{
+  display: flex; 
+  justify-content:space-around;
+  text-align: center;
+  font-size: large;
+  position: fixed;
+  top: 1%;
+  left: 0;
+  right: 0;
+}
+
+.menuNavegacion a{
+  display:block;
+  transition: 0,4s linear;
+  padding: 0,5rem 1rem;
+  text-decoration: none;
+  color:aliceblue;
+  font-weight: bold;
+}
+
+.menuNavegacion a:hover{
+  background: rgb(67, 109, 177);
+  color:whitesmoke;
+}
+
+body{
+  
+  background-color: rgba(58, 150, 221, 0.749);
+  background-image: url(../IMAGENES/Argentina_principal.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.imagenPalmar, .imagenEsteros, .imagenConcepcion, .imagenSolanet, .imagenUdaquiola, .imagenSalta, .imagenJujuy, .imagenMendoza, .imagenVela, .imagenGardey{
+  height: 50%;
+  width: 50%;
+  object-fit: contain;
+}
+
+table{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 1%;
+  letter-spacing: 5px;
+}
+
+h2{
+  text-align: center;
+  font-size:30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 2%;
+}
+
+.descripcion{
+  font-size: small;
+}
+
+p, .listasQueHacer{
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: x-large;
+  margin-right: 2%;
+  margin-left: 2%;
+  line-height: 1.4em;
+  margin-bottom: 0.8em;
+  padding-top: 1%;  
+}
+
+.contenedorEncabezadoPrincipal{
+  height: 30vh;
+  background-color: rgba(58, 150, 221, 0.749);
+  background-image: url(../IMAGENES/ArgentinaP.jpg);
+  background-repeat: no-repeat;
+  position: relative; 
+  position: fixed;
+  top: 5%;
+  left: 0;
+  right: 0;
+}
+
+.contenedorEncabezado{
+  height: 16vh;
+  background-color: rgba(58, 150, 221, 0.749);
+  background-image: url(../IMAGENES/ArgentinaS.jpg);
+  background-repeat: no-repeat;
+  position: relative; 
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:5%;
+}
+
+.contenedorCentro{
+  background-color: rgba(58, 150, 221, 0.493);
+  margin-top: 1%;
+}
+
+.contenedorFotos{
+  background-color:rgba(58, 150, 221);
+  margin-top: 1%;
+}
+
+main{
+  padding-top:17%;
+}
+
+.provincias{
+  padding-top:10%;
+}
+
+form{
+  background-color:rgba(58, 150, 221);
+  margin-top: 1%;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column ;
+  width: 50%;
+  margin-left: 25%;
+  height: 400px;
+  padding-top:5% ;
+  padding-bottom: 5%;
+}

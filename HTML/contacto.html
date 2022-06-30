@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Conociendo mi Argentina</title>
+        <link rel="stylesheet" href="../CSS/estilos.css"> 
+    </head>
+
+  <body>
+     <nav class="menuNavegacion">
+        <a href="../index.html">Inicio</a>
+        <a href="corrientes.html">Corrientes</a>
+        <a href="entreRios.html">Entre Ríos</a>
+        <a href="bsAs.html">Buenos Aires</a>
+        <a href="jujuy.html">Jujuy</a>
+        <a href="salta.html">Salta</a>
+        <a href="mendoza.html">Mendoza</a>
+        <a href="contacto.html">Contacto</a>
+     </nav> 
+     <div class="contenedorEncabezado">
+        <h1>Complete el siguiente formulario</h1>
+     </div>
+     
+     <main class="provincias">
+       <form action="/login.php" id ="formulario">
+         
+
+          <div>
+             <label for="nombre">* Nombre: </label>
+             <input id="nombre" name="nombre" type="text" value="" placeholder="Ingresa tu nombre">
+          </div>
+          <div>
+             <label for="apellido">* Apellido: </label>
+             <input id="apellido" name="apellido" type="text" value="" placeholder="Ingresa tu apellido">
+          </div>
+          
+           <div>
+             <label for="pass">* Clave:</label>
+             <input id="pass" name="pass" type="password" placeholder="Ingresa tu clave">
+           </div>
+           <div>
+             <label for="sexo">Sexo:</label>
+             <input id="sexoFemenino" name="sexo" type="radio" value="femenino"> Femenino
+             <input id="sexoMasculino" name="sexo" type="radio"  value="masculino"> Masculino
+             <input id="sexoOtro" name="sexo" type="radio"  value="otro"> Otro
+          </div>
+          <div> 
+             <label for="queTeGusta">Seleccione que te gustaría conocer:</label>
+             <input id="queTeGustaMontana" name="queTeGusta"  type="radio" value="montana">Montaña
+             <input id="queTeGustaSierra" name="queTeGusta"  type="radio" value="sierra">Sierra
+             <input id="queTeGustaMar" name="queTeGusta"  type="radio" value="mar">Mar
+             <input id="queTeGustaValle" name="queTeGusta"  type="radio" value="valle">Valle
+          </div>
+          <button id="bt1Enviar">Aceptar</button>
+          <div>
+             <p class="descripcion" id="respuesta"></p>
+          <div>  
+         
+        </form>
+      </main>
+      
+      
+   <script src="../JS/validarFormulario.js"></script>
+   </body>
+   
+ </html>
